@@ -8,6 +8,11 @@ print(meu_dicionario_2)
 #Acessando elementos
 print(meu_dicionario_2[1])
 
+#Iterações sobre dicionários
+print("Iteração")
+for chave, valor in meu_dicionario.items():
+    print(valor)
+
 # Operações sobre dictionaries: get(), len(), del(), pop(), clear()
 print(meu_dicionario.get('nome'))
 
