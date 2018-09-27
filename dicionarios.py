@@ -13,7 +13,6 @@ print("Iteração")
 for chave, valor in meu_dicionario.items():
     print(valor)
 
-
 # Operações sobre dictionaries: get(), len(), del(), pop(), clear()
 print(meu_dicionario.get('nome'))
 
