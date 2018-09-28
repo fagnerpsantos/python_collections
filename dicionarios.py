@@ -13,6 +13,9 @@ print("Iteração")
 for chave, valor in meu_dicionario.items():
     print(valor)
 
+for chave, valor in meu_dicionario.items():
+    print(f"A chave é: {chave} e valor é: {valor}")
+
 # Operações sobre dictionaries: get(), len(), del(), pop(), clear()
 print(meu_dicionario.get('nome'))
 
